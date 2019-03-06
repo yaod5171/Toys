@@ -31,6 +31,12 @@ public class Toy
             count = cnt;
 	}
 	
+        public void add() 
+        {
+            count++;
+        }
+        
+        
 	public String getName()
 	{
 		return name;
